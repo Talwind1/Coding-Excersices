@@ -14,4 +14,8 @@ var searchInsert = function (arr, target) {
     }
   }
 };
+
+var strStr2 = function (haystack, needle) {
+  return needle.length === 0 ? 0 : haystack.indexOf(needle);
+};
 console.log(searchInsert([1, 2, 5, 6], 5));
